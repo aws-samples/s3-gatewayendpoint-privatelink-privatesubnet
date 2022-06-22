@@ -1,6 +1,6 @@
 # S3-gatewayendpoint-privatelink-privatesubnet
 
-This working example is used to demostrate how to configure S3 gateway endpoint and S3 privatelink in the same VPC,  which doesn't not have any inbound or outbound internet access.
+This working example is used to demostrate how to configure S3 gateway endpoint and S3 privatelink in the same VPC,  which doesn't have any inbound or outbound internet access.
 Enterprise customer who has very strict cyber security control requirement in place normally use Gateway Endpoint to access S3. With the new S3 PrivateLink feature, customers can now can configure secured access to their data in S3 bucket from on-premise network. 
 
 What's the difference between Gateway Endpoint and PrivateLink? Can they work together in the same VPC? Any requirement on the firewalls to make this setup work?
